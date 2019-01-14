@@ -1,0 +1,48 @@
+@import "compass/css3";
+body {
+  padding-top: 50px;
+}
+.navbar-inverse-ayi{
+  background: #fff;
+  border-color: #E8E9EC;
+}
+.navbar-header .navbar-brand{
+  div{
+    width: 150px;
+    height: 30px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    margin: -5px 24px 0px 10px;
+  }
+}
+.ayi-nav-right{
+  margin-right: 30px;
+  li {
+    height: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+    position: relative;
+    span{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 50px;
+      color: #666;
+    }
+    img{ width: 26px; height: 26px; @include  border-radius(50%); margin-top: 10px;}
+    i{ font-size: 12px;  position: absolute; top: 18px; right: -18px;}
+  }
+  .dropdown-menu{ margin-right: 30px;
+    li{ height: 30px; margin: 0px; padding: 0px;}
+    li.divider{
+      height: 1px;
+      margin: 9px 0;
+      overflow: hidden;
+      background-color: #e5e5e5;
+    }
+  }
+
+}
+.ayi-floor{
+    width: 100%;
+    background: rgb(241,243,244);
+}
