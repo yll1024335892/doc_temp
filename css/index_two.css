@@ -1,77 +1,26 @@
-/* line 2, ../sass/index_two.scss */
-body {
-  padding-top: 50px;
-}
+body { padding-top: 50px; background: #f1f3f4; }
 
-/* line 5, ../sass/index_two.scss */
-.navbar-inverse-ayi {
-  background: #fff;
-  border-color: #E8E9EC;
-}
+.navbar-inverse-ayi { background: #fff; border-color: #E8E9EC; }
 
-/* line 10, ../sass/index_two.scss */
-.navbar-header .navbar-brand div {
-  width: 150px;
-  height: 30px;
-  background-image: url(../images/logo.png);
-  background-size: cover;
-  margin: -5px 24px 0px 10px;
-}
+.navbar-header .navbar-brand div { width: 150px; height: 30px; background-image: url(../images/logo.png); background-size: cover; margin: -5px 24px 0px 10px; }
 
-/* line 18, ../sass/index_two.scss */
-.ayi-nav-right {
-  margin-right: 30px;
-}
-/* line 20, ../sass/index_two.scss */
-.ayi-nav-right li {
-  height: 50px;
-  cursor: pointer;
-  margin-left: 30px;
-  position: relative;
-}
-/* line 25, ../sass/index_two.scss */
-.ayi-nav-right li span {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  line-height: 50px;
-  color: #666;
-}
-/* line 31, ../sass/index_two.scss */
-.ayi-nav-right li img {
-  width: 26px;
-  height: 26px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-/* line 32, ../sass/index_two.scss */
-.ayi-nav-right li i {
-  font-size: 12px;
-  position: absolute;
-  top: 18px;
-  right: -18px;
-}
-/* line 34, ../sass/index_two.scss */
-.ayi-nav-right .dropdown-menu {
-  margin-right: 30px;
-}
-/* line 35, ../sass/index_two.scss */
-.ayi-nav-right .dropdown-menu li {
-  height: 30px;
-  margin: 0px;
-  padding: 0px;
-}
-/* line 36, ../sass/index_two.scss */
-.ayi-nav-right .dropdown-menu li.divider {
-  height: 1px;
-  margin: 9px 0;
-  overflow: hidden;
-  background-color: #e5e5e5;
-}
+.ayi-nav-right { margin-right: 30px; }
+.ayi-nav-right li { height: 50px; cursor: pointer; margin-left: 30px; position: relative; }
+.ayi-nav-right li span { padding-top: 15px; padding-bottom: 15px; line-height: 50px; color: #666; }
+.ayi-nav-right li img { width: 26px; height: 26px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; margin-top: 10px; }
+.ayi-nav-right li i { font-size: 12px; position: absolute; top: 18px; right: -18px; }
+.ayi-nav-right .dropdown-menu { margin-right: 30px; }
+.ayi-nav-right .dropdown-menu li { height: 30px; margin: 0px; padding: 0px; }
+.ayi-nav-right .dropdown-menu li.divider { height: 1px; margin: 9px 0; overflow: hidden; background-color: #e5e5e5; }
 
-/* line 45, ../sass/index_two.scss */
-.ayi-floor {
-  width: 100%;
-  background: #f1f3f4;
-}
+.ayi-floor { width: 100%; background: #f1f3f4; }
+.ayi-floor .ayi-floor-contain .ayi-c-left h1 { padding-left: 20px; font-size: 18px; color: #666; font-weight: normal; }
+.ayi-floor .ayi-floor-contain .ayi-c-left .ayi-c-left-c { width: 160px; margin-left: 20px; margin-bottom: 20px; float: left; }
+.ayi-floor .ayi-floor-contain .ayi-c-left .ayi-c-left-c img { width: 100%; }
+.ayi-floor .ayi-floor-contain .ayi-c-right .ayi-ad { width: 100%; }
+.ayi-floor .ayi-floor-contain .ayi-c-right .ayi-ad img { width: 100%; max-width: 100%; }
+
+@media (max-width: 768px) { .ayi-c-right { display: none; }
+  .ayi-floor .ayi-floor-contain .ayi-c-left .ayi-c-left-c { width: 42%; } }
+@media (min-width: 768px) and (max-width: 992px) { .ayi-floor .ayi-floor-contain .ayi-c-left .ayi-c-left-c { width: 135px; } }
+@media (min-width: 992px) and (max-width: 1200px) { .ayi-floor .ayi-floor-contain .ayi-c-left .ayi-c-left-c { width: 180px; } }

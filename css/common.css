@@ -1,18 +1,5 @@
-/* line 2, ../sass/common.scss */
-* {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-  outline: none;
-  text-decoration: none;
-}
+* { padding: 0px; margin: 0px; list-style: none; outline: none; text-decoration: none; }
 
-@-ms-viewport {
-  width: device-width;
-}
-@-o-viewport {
-  width: device-width;
-}
-@viewport {
-  width: device-width;
-}
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
